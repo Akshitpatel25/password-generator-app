@@ -26,7 +26,9 @@ body {
     row-gap: 20px;
     color: white;
 }
-
+#copyimg {
+    visibility: hidden;
+}
 .container p {
     font-size: 17px;
 }
