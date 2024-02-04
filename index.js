@@ -59,7 +59,7 @@ symboll.addEventListener("click", function(){
 
 
 function generate() { 
- document.getelementbyid("copyimg").style.visibility: visible;
+ document.getElementById("copyimg").style.visibility = "visible"; 
   if(upperrr == true || lowerrr == true || numberrr == true || symbolll == true) {
     // alert("okay");
     // document.querySelector(".option").style.borderColor = "yellow";
