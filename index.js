@@ -59,12 +59,14 @@ symboll.addEventListener("click", function(){
 
 
 function generate() { 
- document.getElementById("copyimg").style.visibility = "visible"; 
+  
   if(upperrr == true || lowerrr == true || numberrr == true || symbolll == true) {
     // alert("okay");
     // document.querySelector(".option").style.borderColor = "yellow";
+    document.getElementById("copyimg").style.visibility = "visible";
   }else {
     document.querySelector(".option").style.borderColor = "red";
+    document.getElementById("copyimg").style.visibility = "hidden";
   }
 
   // if only upper option is clicked
