@@ -2,7 +2,7 @@
 
 ### Links
 
-- Live Site URL: [https://tic-tac-toe-game-app.pages.dev/]
+- Live Site URL: [https://password-generator-app.pages.dev/]
 
 ### Screenshot
 
